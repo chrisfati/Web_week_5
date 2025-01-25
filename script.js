@@ -92,3 +92,14 @@ listItem.textContent = i;
 // Append the <li> to the <ol>
 numberList.appendChild(listItem);
 }
+
+# PART 3: INTRODUCTION TO DOM
+   # Creating HTML Structures
+
+//JavaScript to add dynamic content
+const dynamicDiv = document.getElementById("dynamic-content");
+
+// Adding a message dynamically
+const message = document.createElement("p");
+message.textContent = "This content was added dynamically using JavaScript!";
+dynamicDiv.appendChild(message);
