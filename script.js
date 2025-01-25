@@ -1,4 +1,4 @@
-# PART 1
+# PART 1: JAVASCRIPT BASICS
    # Variables and Datatypes
 
 // Declare variables
@@ -53,3 +53,27 @@ function greetUser(name) {
         const userName = "John"; 
         const greetingMessage = greetUser(userName);
         document.getElementById("greeting").textContent = greetingMessage;
+
+#PART 2: JAVASCRIPT CONTROL STRUCTURES 
+  # If statement
+
+// Ask the user for their age
+let age = prompt("Please enter your age:");
+
+// Convert the input to a number
+age = Number(age);
+
+// Get the HTML element to display the message
+const messageDiv = document.getElementById("message");
+
+// Check if the user is eligible to vote and display a message
+if (age >= 18) {
+    messageDiv.textContent = "You are eligible to vote!";
+    messageDiv.style.color = "green"; // Optional styling
+} else if (age > 0) {
+    messageDiv.textContent = "You are not eligible to vote.";
+    messageDiv.style.color = "red"; // Optional styling
+} else {
+    messageDiv.textContent = "Invalid age entered.";
+    messageDiv.style.color = "orange"; // Optional styling
+}
