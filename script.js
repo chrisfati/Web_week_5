@@ -41,3 +41,15 @@ function calculator() {
     }
 }
 calculator();
+
+
+
+  # Functions
+
+function greetUser(name) {
+            return `Hello, ${name}! Welcome to our website.`;
+        }
+
+        const userName = "John"; 
+        const greetingMessage = greetUser(userName);
+        document.getElementById("greeting").textContent = greetingMessage;
