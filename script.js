@@ -103,3 +103,14 @@ const dynamicDiv = document.getElementById("dynamic-content");
 const message = document.createElement("p");
 message.textContent = "This content was added dynamically using JavaScript!";
 dynamicDiv.appendChild(message);
+
+   # Selecting and Modifying HTML Elements
+// Change the text of the <h1> element
+const heading = document.querySelector("h1");
+heading.textContent = "JavaScript in Action!";
+
+// Add a new <p> inside the dynamic-content <div>
+const dynamicDiv = document.getElementById("dynamic-content");
+const newParagraph = document.createElement("p");
+newParagraph.textContent = "This content was added dynamically using JavaScript.";
+dynamicDiv.appendChild(newParagraph);
