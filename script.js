@@ -77,3 +77,18 @@ if (age >= 18) {
     messageDiv.textContent = "Invalid age entered.";
     messageDiv.style.color = "orange"; // Optional styling
 }
+
+    # Loops.
+
+// Get the <ol> element
+const numberList = document.getElementById("numberList");
+
+// Loop to display numbers from 1 to 10
+for (let i = 1; i <= 10; i++) {
+// Create a new <li> element
+const listItem = document.createElement("li");
+// Set the text content of the <li> to the current number
+listItem.textContent = i;
+// Append the <li> to the <ol>
+numberList.appendChild(listItem);
+}
