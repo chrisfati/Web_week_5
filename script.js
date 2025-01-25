@@ -1,4 +1,5 @@
-#Variables and Datatypes
+# PART 1
+   # Variables and Datatypes
 
 // Declare variables
 let name = "John Doe";          // String
